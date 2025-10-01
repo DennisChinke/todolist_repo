@@ -54,6 +54,7 @@ function addItem() {
 
         ul.appendChild(li)
 
+        //Delete item on list
         delBtn.addEventListener('click', removeItem)
         function removeItem(e) {
             if (confirm('Are you sure?')) {
@@ -65,12 +66,18 @@ function addItem() {
     input.value = ''
 }
 
+//USING PARENT ELEMENT TO DELETE BUTTON
 //remove delete button
 // ul.addEventListener('click', remItem)
 // function remItem(e) {
 //     if(e.target.classList.contains('delete')) {
 //         if(confirm('Are you sure?')) {
+
+
+                //WORKS TOO
 //             // e.target.parentElement.remove()
+
+
 //             let li = e.target.parentElement
 //             ul.removeChild(li)
 //         }
