@@ -41,11 +41,11 @@ function addItem() {
         delBtn.style.padding = '.2em'
         delBtn.style.backgroundColor = 'red'
         delBtn.style.color = 'white'
-        // delBtn.style.cssFloat = 'inline-end'
+        delBtn.style.cssFloat = 'inline-end'
         delBtn.style.borderRadius = '3px'
         delBtn.style.border = 'none'
         delBtn.style.outline = 'none'
-        delBtn.style.marginLeft = '8em'
+        // delBtn.style.marginLeft = '8em'
         li.appendChild(delBtn)
 
         //delBtn text
